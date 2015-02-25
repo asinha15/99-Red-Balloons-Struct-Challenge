@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FBFA31A1A9DAA600003FEA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBFA3191A9DAA600003FEA8 /* AppDelegate.swift */; };
+		4FBFA31C1A9DAA600003FEA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBFA31B1A9DAA600003FEA8 /* ViewController.swift */; };
+		4FBFA31F1A9DAA600003FEA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBFA31D1A9DAA600003FEA8 /* Main.storyboard */; };
+		4FBFA3211A9DAA600003FEA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBFA3201A9DAA600003FEA8 /* Images.xcassets */; };
+		4FBFA3241A9DAA600003FEA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FBFA3221A9DAA600003FEA8 /* LaunchScreen.xib */; };
+		4FBFA3301A9DAA600003FEA8 /* _9_Red_Balloons_Struct_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBFA32F1A9DAA600003FEA8 /* _9_Red_Balloons_Struct_ChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FBFA32A1A9DAA600003FEA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBFA30C1A9DAA600003FEA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBFA3131A9DAA600003FEA8;
+			remoteInfo = "99-Red-Balloons-Struct-Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FBFA3141A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "99-Red-Balloons-Struct-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBFA3181A9DAA600003FEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBFA3191A9DAA600003FEA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FBFA31B1A9DAA600003FEA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FBFA31E1A9DAA600003FEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FBFA3201A9DAA600003FEA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FBFA3231A9DAA600003FEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FBFA3291A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99-Red-Balloons-Struct-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBFA32E1A9DAA600003FEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBFA32F1A9DAA600003FEA8 /* _9_Red_Balloons_Struct_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_Red_Balloons_Struct_ChallengeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FBFA3111A9DAA600003FEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBFA3261A9DAA600003FEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FBFA30B1A9DAA600003FEA8 = {
+			isa = PBXGroup;
+			children = (
+				4FBFA3161A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge */,
+				4FBFA32C1A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests */,
+				4FBFA3151A9DAA600003FEA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FBFA3151A9DAA600003FEA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FBFA3141A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge.app */,
+				4FBFA3291A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FBFA3161A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				4FBFA3191A9DAA600003FEA8 /* AppDelegate.swift */,
+				4FBFA31B1A9DAA600003FEA8 /* ViewController.swift */,
+				4FBFA31D1A9DAA600003FEA8 /* Main.storyboard */,
+				4FBFA3201A9DAA600003FEA8 /* Images.xcassets */,
+				4FBFA3221A9DAA600003FEA8 /* LaunchScreen.xib */,
+				4FBFA3171A9DAA600003FEA8 /* Supporting Files */,
+			);
+			path = "99-Red-Balloons-Struct-Challenge";
+			sourceTree = "<group>";
+		};
+		4FBFA3171A9DAA600003FEA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FBFA3181A9DAA600003FEA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FBFA32C1A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FBFA32F1A9DAA600003FEA8 /* _9_Red_Balloons_Struct_ChallengeTests.swift */,
+				4FBFA32D1A9DAA600003FEA8 /* Supporting Files */,
+			);
+			path = "99-Red-Balloons-Struct-ChallengeTests";
+			sourceTree = "<group>";
+		};
+		4FBFA32D1A9DAA600003FEA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FBFA32E1A9DAA600003FEA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FBFA3131A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBFA3331A9DAA600003FEA8 /* Build configuration list for PBXNativeTarget "99-Red-Balloons-Struct-Challenge" */;
+			buildPhases = (
+				4FBFA3101A9DAA600003FEA8 /* Sources */,
+				4FBFA3111A9DAA600003FEA8 /* Frameworks */,
+				4FBFA3121A9DAA600003FEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "99-Red-Balloons-Struct-Challenge";
+			productName = "99-Red-Balloons-Struct-Challenge";
+			productReference = 4FBFA3141A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FBFA3281A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBFA3361A9DAA600003FEA8 /* Build configuration list for PBXNativeTarget "99-Red-Balloons-Struct-ChallengeTests" */;
+			buildPhases = (
+				4FBFA3251A9DAA600003FEA8 /* Sources */,
+				4FBFA3261A9DAA600003FEA8 /* Frameworks */,
+				4FBFA3271A9DAA600003FEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBFA32B1A9DAA600003FEA8 /* PBXTargetDependency */,
+			);
+			name = "99-Red-Balloons-Struct-ChallengeTests";
+			productName = "99-Red-Balloons-Struct-ChallengeTests";
+			productReference = 4FBFA3291A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FBFA30C1A9DAA600003FEA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Arnab Sinha";
+				TargetAttributes = {
+					4FBFA3131A9DAA600003FEA8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4FBFA3281A9DAA600003FEA8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4FBFA3131A9DAA600003FEA8;
+					};
+				};
+			};
+			buildConfigurationList = 4FBFA30F1A9DAA600003FEA8 /* Build configuration list for PBXProject "99-Red-Balloons-Struct-Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FBFA30B1A9DAA600003FEA8;
+			productRefGroup = 4FBFA3151A9DAA600003FEA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FBFA3131A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge */,
+				4FBFA3281A9DAA600003FEA8 /* 99-Red-Balloons-Struct-ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FBFA3121A9DAA600003FEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBFA31F1A9DAA600003FEA8 /* Main.storyboard in Resources */,
+				4FBFA3241A9DAA600003FEA8 /* LaunchScreen.xib in Resources */,
+				4FBFA3211A9DAA600003FEA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBFA3271A9DAA600003FEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FBFA3101A9DAA600003FEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBFA31C1A9DAA600003FEA8 /* ViewController.swift in Sources */,
+				4FBFA31A1A9DAA600003FEA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBFA3251A9DAA600003FEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBFA3301A9DAA600003FEA8 /* _9_Red_Balloons_Struct_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FBFA32B1A9DAA600003FEA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBFA3131A9DAA600003FEA8 /* 99-Red-Balloons-Struct-Challenge */;
+			targetProxy = 4FBFA32A1A9DAA600003FEA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FBFA31D1A9DAA600003FEA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FBFA31E1A9DAA600003FEA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FBFA3221A9DAA600003FEA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FBFA3231A9DAA600003FEA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FBFA3311A9DAA600003FEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FBFA3321A9DAA600003FEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FBFA3341A9DAA600003FEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99-Red-Balloons-Struct-Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FBFA3351A9DAA600003FEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99-Red-Balloons-Struct-Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FBFA3371A9DAA600003FEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99-Red-Balloons-Struct-ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99-Red-Balloons-Struct-Challenge.app/99-Red-Balloons-Struct-Challenge";
+			};
+			name = Debug;
+		};
+		4FBFA3381A9DAA600003FEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99-Red-Balloons-Struct-ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99-Red-Balloons-Struct-Challenge.app/99-Red-Balloons-Struct-Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FBFA30F1A9DAA600003FEA8 /* Build configuration list for PBXProject "99-Red-Balloons-Struct-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBFA3311A9DAA600003FEA8 /* Debug */,
+				4FBFA3321A9DAA600003FEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBFA3331A9DAA600003FEA8 /* Build configuration list for PBXNativeTarget "99-Red-Balloons-Struct-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBFA3341A9DAA600003FEA8 /* Debug */,
+				4FBFA3351A9DAA600003FEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FBFA3361A9DAA600003FEA8 /* Build configuration list for PBXNativeTarget "99-Red-Balloons-Struct-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBFA3371A9DAA600003FEA8 /* Debug */,
+				4FBFA3381A9DAA600003FEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FBFA30C1A9DAA600003FEA8 /* Project object */;
+}
